@@ -8,7 +8,7 @@ The first line contains two integers: n (size of S) and m (the number of queries
 ### Output
 The number of points in S lying inside each of the m query intervals.
 ### Example
-![Image text](https://raw.githubusercontent.com/chaopan1995/Elements-finis-pour-GCC/master/img/enonce1.jpg)
+![Image text](https://raw.githubusercontent.com/chaopan1995/DataStructure/master/_images/range_example.png)
 Input
 
 5 2
