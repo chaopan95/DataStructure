@@ -10,6 +10,8 @@ The number of points in S lying inside each of the m query intervals.
 ### Example
 ![Image text](https://raw.githubusercontent.com/chaopan1995/DataStructure/master/_images/range_example.png)
 ### Restrictions
+
+<img src="https://raw.githubusercontent.com/chaopan1995/DataStructure/master/_images/range_restrictions.png"/>
 0 <= n, m <= 5 * 10^5
 
 For each query interval [a, b], it is guaranteed that a <= b.
