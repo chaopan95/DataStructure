@@ -9,8 +9,19 @@ The number of points in S lying inside each of the m query intervals.
 ### Example
 ![Image text](https://raw.githubusercontent.com/chaopan1995/DataStructure/master/_images/range_example.png)
 ### Restrictions
-<img src="https://raw.githubusercontent.com/chaopan1995/DataStructure/master/_images/range_restrictions.png"/>
+0 <= n, m <= 5 * 10^5
 
+For each query interval [a, b], it is guaranteed that a <= b.
+
+Points in S are distinct from each other.
+
+Coordinates of each point as well as the query interval boundaries a and b are non-negative integers not greater than 10^7.
+
+Time: 2 sec
+
+Memory: 256 MB
+
+You can only use the C++ language. STL is forbidden.
 ## Zuma
 ### Description
 Let's play the game Zuma! There are a sequence of beads on a track at the right beginning. All the beads are colored but no three adjacent ones are allowed to be with a same color. You can then insert beads one by one into the sequence. Once three (or more) beads with a same color become adjacent due to an insertion, they will vanish immediately.
