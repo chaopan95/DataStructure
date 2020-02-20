@@ -59,7 +59,7 @@ Memory: 256 MB
 
 You can only use the C++ language. STL is forbidden.
 ### Solution
-
+Attetion: both 3 beads' elimination and 4 beads' elimination are possible
 ## LightHouse
 ### Description
 As shown in the following figure, If another lighthouse is in gray area, they can beacon each other. For example, in following figure, (B, R) is a pair of lighthouse which can beacon each other, while (B, G), (R, G) are NOT.
