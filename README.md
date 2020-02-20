@@ -7,7 +7,7 @@ The first line contains two integers: n (size of S) and m (the number of queries
 ### Output
 The number of points in S lying inside each of the m query intervals.
 ### Example
-![Image text](https://raw.githubusercontent.com/chaopan1995/DataStructure/master/_images/range_example.png)
+![Image text](https://raw.githubusercontent.com/chaopan1995/DataStructure/master/_images/Range_example.png)
 ### Restrictions
 0 <= n, m <= 5 * 10^5
 
