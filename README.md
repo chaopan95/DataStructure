@@ -22,6 +22,14 @@ Time: 2 sec
 Memory: 256 MB
 
 You can only use the C++ language. STL is forbidden.
+### Solution
+1) Sort all points with QuickSort
+
+2) Locate the left border's index ceil[a] and the right border's index floor[b].
+![Image text](https://raw.githubusercontent.com/chaopan1995/DataStructure/master/_images/Range_solution.png)
+
+The final answer is [b]-[a]+1.
+
 ## Zuma
 ### Description
 Let's play the game Zuma! There are a sequence of beads on a track at the right beginning. All the beads are colored but no three adjacent ones are allowed to be with a same color. You can then insert beads one by one into the sequence. Once three (or more) beads with a same color become adjacent due to an insertion, they will vanish immediately.
@@ -53,21 +61,21 @@ Time: 2 sec
 Memory: 256 MB
 
 You can only use the C++ language. STL is forbidden.
-# LightHouse
-## Description
+## LightHouse
+### Description
 As shown in the following figure, If another lighthouse is in gray area, they can beacon each other. For example, in following figure, (B, R) is a pair of lighthouse which can beacon each other, while (B, G), (R, G) are NOT.
 <img src="https://raw.githubusercontent.com/chaopan1995/DataStructure/master/_images/LightHouse_description.png"/>
-## Input
+### Input
 1st line: N
 
 2nd ~ (N + 1)th line: each line is X Y, means a lighthouse is on the point (X, Y).
 
-## Output
+### Output
 How many pairs of lighthourses can beacon each other ( For every lighthouses, X coordinates won't be the same , Y coordinates won't be the same )
-## Example
+### Example
 <img src="https://raw.githubusercontent.com/chaopan1995/DataStructure/master/_images/LightHouse_example.png"/>
 
-## Restrictions
+### Restrictions
 For 90% test cases: 1 <= n <= 3 * 10^5
 
 For 95% test cases: 1 <= n <= 10^6
@@ -84,9 +92,9 @@ Memory: 256 MB
 
 You can only use the C++ language. STL is forbidden.
 
-## Hints
+### Hints
 The range of int is usually [-2^31, 2^31 - 1], it may be too small.
-## Solution
+### Solution
 This problem can be converted into an inverted sort pair problem. How many pairs of LightHouse can beacon each other means how many non-inversable pairs.
 
 1) Sort all points(x, y) according to the coordinate x.
