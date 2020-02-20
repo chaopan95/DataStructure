@@ -27,9 +27,9 @@ You can only use the C++ language. STL is forbidden.
 Let's play the game Zuma! There are a sequence of beads on a track at the right beginning. All the beads are colored but no three adjacent ones are allowed to be with a same color. You can then insert beads one by one into the sequence. Once three (or more) beads with a same color become adjacent due to an insertion, they will vanish immediately.
 ![Image text](https://raw.githubusercontent.com/chaopan1995/DataStructure/master/_images/Zuma_description.png)
 Note that it is possible for such a case to happen for more than once for a single insertion. You can't insert the next bead until all the eliminations have been done.
-<p style='text-align: justify;'>
+
+
 Given both the initial sequence and the insertion series, you are now asked by the fans to provide a playback tool for replaying their games. In other words, the sequence of beads after all possible eliminations as a result of each insertion should be calculated.
-</p>
 ### Input
 The first line gives the initial bead sequence. Namely, it is a string of capital letters from 'A' to 'Z', where different letters correspond to beads with different colors.
 
