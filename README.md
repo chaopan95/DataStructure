@@ -41,7 +41,7 @@ n lines of capital letters, i.e., the evolutionary history of the bead sequence.
 
 Specially, "-" stands for an empty sequence.
 ### Example
-<img src="https://raw.githubusercontent.com/chaopan1995/DataStructure/master/_images/zuma_example.png"/>
+<img src="https://raw.githubusercontent.com/chaopan1995/DataStructure/master/_images/Zuma_example.png"/>
 
 ### Restrictions
 0 <= n <= 10^4
