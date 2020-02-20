@@ -93,3 +93,4 @@ This problem can be converted into an inverted sort pair problem. How many pairs
 
 2) Divide-and-conquer. MergeSort all points according to the coordinate y, at the same time keep record of the number of inversable pairs I. <img src="http://latex.codecogs.com/gif.latex?C_{n}^{2}-I" border="0"/> is the final answer.
 
+
