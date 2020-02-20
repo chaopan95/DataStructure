@@ -65,6 +65,7 @@ As shown in the following figure, If another lighthouse is in gray area, they ca
 How many pairs of lighthourses can beacon each other ( For every lighthouses, X coordinates won't be the same , Y coordinates won't be the same )
 ## Example
 <img src="https://raw.githubusercontent.com/chaopan1995/DataStructure/master/_images/LightHouse_example.png"/>
+
 ## Restrictions
 For 90% test cases: 1 <= n <= 3 * 10^5
 
