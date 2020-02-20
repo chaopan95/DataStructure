@@ -27,9 +27,7 @@ You can only use the C++ language. STL is forbidden.
 
 2) Locate the left border's index ceil[a] and the right border's index floor[b].
 ![Image text](https://raw.githubusercontent.com/chaopan1995/DataStructure/master/_images/Range_solution.png)
-
 The final answer is [b]-[a]+1.
-
 ## Zuma
 ### Description
 Let's play the game Zuma! There are a sequence of beads on a track at the right beginning. All the beads are colored but no three adjacent ones are allowed to be with a same color. You can then insert beads one by one into the sequence. Once three (or more) beads with a same color become adjacent due to an insertion, they will vanish immediately.
