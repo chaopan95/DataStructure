@@ -85,3 +85,9 @@ You can only use the C++ language. STL is forbidden.
 
 ## Hints
 The range of int is usually [-2^31, 2^31 - 1], it may be too small.
+## Solution
+This problem can be converted into an inverted sort pair problem. How many pairs of LightHouse can beacon each other means how many non-inversable pairs.
+
+1) Sort all points(x, y) according to the coordinate x.
+
+2) Divide-and-conquer. MergeSort all points according to the coordinate y, at the same time keep record of the number of inversable pairs I. C_{n}^{2}-I is the final answer.
