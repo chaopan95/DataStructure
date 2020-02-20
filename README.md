@@ -43,7 +43,6 @@ Specially, "-" stands for an empty sequence.
 <img src="https://raw.githubusercontent.com/chaopan1995/DataStructure/master/_images/zuma_example.png"/>
 
 ### Restrictions
-
 0 <= n <= 10^4
 
 0 <= length of the initial sequence <= 10^4
@@ -53,3 +52,35 @@ Time: 2 sec
 Memory: 256 MB
 
 You can only use the C++ language. STL is forbidden.
+# LightHouse
+## Description
+As shown in the following figure, If another lighthouse is in gray area, they can beacon each other. For example, in following figure, (B, R) is a pair of lighthouse which can beacon each other, while (B, G), (R, G) are NOT.
+<img src="https://raw.githubusercontent.com/chaopan1995/DataStructure/master/_images/LightHouse_description.png"/>
+## Input
+1st line: N
+
+2nd ~ (N + 1)th line: each line is X Y, means a lighthouse is on the point (X, Y).
+
+## Output
+How many pairs of lighthourses can beacon each other ( For every lighthouses, X coordinates won't be the same , Y coordinates won't be the same )
+## Example
+<img src="https://raw.githubusercontent.com/chaopan1995/DataStructure/master/_images/LightHouse_example.png"/>
+## Restrictions
+For 90% test cases: 1 <= n <= 3 * 10^5
+
+For 95% test cases: 1 <= n <= 10^6
+
+For all test cases: 1 <= n <= 4 * 10^6
+
+For every lighthouses, X coordinates won't be the same , Y coordinates won't be the same.
+
+1 <= x, y <= 10^8
+
+Time: 2 sec
+
+Memory: 256 MB
+
+You can only use the C++ language. STL is forbidden.
+
+## Hints
+The range of int is usually [-2^31, 2^31 - 1], it may be too small.
