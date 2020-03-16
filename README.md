@@ -1,5 +1,5 @@
 # DataStructure
-## Range
+## 1. Range
 ### Descriptioin
 Let S be a set of n integral points on the x-axis. For each given interval [a, b], you are asked to count the points lying inside.
 ### Input
@@ -28,7 +28,7 @@ You can only use the C++ language. STL is forbidden.
 2) Locate the left border's index ceil[a] and the right border's index floor[b].
 ![Image text](https://raw.githubusercontent.com/chaopan1995/DataStructure/master/_images/Range_solution.png)
 The final answer is floor[b]-ceil[a]+1.
-## Zuma
+## 2. Zuma
 ### Description
 Let's play the game Zuma! There are a sequence of beads on a track at the right beginning. All the beads are colored but no three adjacent ones are allowed to be with a same color. You can then insert beads one by one into the sequence. Once three (or more) beads with a same color become adjacent due to an insertion, they will vanish immediately.
 ![Image text](https://raw.githubusercontent.com/chaopan1995/DataStructure/master/_images/Zuma_description.png)
@@ -60,7 +60,7 @@ Memory: 256 MB
 You can only use the C++ language. STL is forbidden.
 ### Solution
 Attetion: both 3 beads' elimination and 4 beads' elimination are possible
-## LightHouse
+## 3. LightHouse
 ### Description
 As shown in the following figure, If another lighthouse is in gray area, they can beacon each other. For example, in following figure, (B, R) is a pair of lighthouse which can beacon each other, while (B, G), (R, G) are NOT.
 <img src="https://raw.githubusercontent.com/chaopan1995/DataStructure/master/_images/LightHouse_description.png"/>
