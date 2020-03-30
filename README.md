@@ -99,3 +99,31 @@ This problem can be converted into an inverted sort pair problem. How many pairs
 1) Sort all points(x, y) according to the coordinate x.
 
 2) Divide-and-conquer. MergeSort all points according to the coordinate y, at the same time keep record of the number of inversable pairs I. <img src="http://latex.codecogs.com/gif.latex?C_{n}^{2}-I" border="0"/> is the final answer.
+
+## 3. LightHouse
+### Description
+Figure shows the structure of a station for train dispatching.
+<img src="https://raw.githubusercontent.com/chaopan1995/DataStructure/master/_images/LightHouse_example.png"/>
+In this station, A is the entrance for each train and B is the exit. S is the transfer end. All single tracks are one-way, which means that the train can enter the station from A to S, and pull out from S to B. Note that the overtaking is not allowed. Because the compartments can reside in S, the order that they pull out at B may differ from that they enter at A. However, because of the limited capacity of S, no more that m compartments can reside at S simultaneously.
+
+Assume that a train consist of n compartments labeled {1, 2, …, n}. A dispatcher wants to know whether these compartments can pull out at B in the order of {a1, a2, …, an} (a sequence). If can, in what order he should operate it?
+### Input
+Two lines:
+
+1st line: two integers n and m;
+
+2nd line: n integers separated by spaces, which is a permutation of {1, 2, …, n}. This is a compartment sequence that is to be judged regarding the feasibility.
+### Output
+How many pairs of lighthourses can beacon each other ( For every lighthouses, X coordinates won't be the same , Y coordinates won't be the same )
+### Example
+<img src="https://raw.githubusercontent.com/chaopan1995/DataStructure/master/_images/LightHouse_example.png"/>
+### Restrictions
+1 <= n <= 1,600,000
+
+0 <= m <= 1,600,000
+
+Time: 2 sec
+
+Memory: 256 MB You can only use the C++ language. STL is forbidden.
+### Solution
+This is a question of stack permutation. We repeat this process, if some element is not corresponded, output no; otherwise, print all process.
