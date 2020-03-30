@@ -127,3 +127,44 @@ Time: 2 sec
 Memory: 256 MB You can only use the C++ language. STL is forbidden.
 ### Solution
 This is a question of stack permutation. We repeat this process, if some element is not corresponded, output no; otherwise, print all process.
+
+## 5. Proper Rebuild
+### Description
+In general, given the preorder traversal sequence and postorder traversal sequence of a binary tree, we cannot determine the binary tree.
+<img src="https://raw.githubusercontent.com/chaopan1995/DataStructure/master/_images/ProperRebuild_description.png"/>
+For example, although they are two different binary tree, their preorder traversal sequence and postorder traversal sequence are both of the same.
+
+But for one proper binary tree, in which each internal node has two sons, we can uniquely determine it through its given preorder traversal sequence and postorder traversal sequence.
+
+Label n nodes in one binary tree using the integers in [1, n], we would like to output the inorder traversal sequence of a binary tree through its preorder and postorder traversal sequence.
+### Input
+The 1st line is an integer n, i.e., the number of nodes in one given binary tree,
+
+The 2nd and 3rd lines are the given preorder and postorder traversal sequence respectively.
+
+### Output
+The inorder traversal sequence of the given binary tree in one line.
+
+### Example
+<img src="https://raw.githubusercontent.com/chaopan1995/DataStructure/master/_images/ProperRebuild_example.png"/>
+
+### Restrictions
+For 95% of the estimation, 1 <= n <= 1,000,00
+
+For 100% of the estimation, 1 <= n <= 4,000,000
+
+The input sequence is a permutation of {1,2...n}, corresponding to a legal binary tree.
+
+Time: 2 sec
+
+Memory: 256 MB
+
+You can only use the C++ language. STL is forbidden.
+
+### Hints
+<img src="https://raw.githubusercontent.com/chaopan1995/DataStructure/master/_images/ProperRebuild_hint.png"/>
+
+observe the positions of the left and right children in preorder and postorder traversal sequence.
+### Solution
+Find L and R child for each node, in-order print
+
