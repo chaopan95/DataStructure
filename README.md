@@ -267,3 +267,32 @@ BFS
 ### Solution
 Once three towns have a distance less than 20km to each other, return -1.
 
+
+
+## 12. Cycle
+### Descriptioin
+Cycle shifting refers to following operation on the sting. Moving first letter to the end and keeping rest part of the string. For example, apply cycle shifting on ABCD will generate BCDA. Given any two strings, to judge if arbitrary times of cycle shifting on one string can generate the other one.
+
+### Input
+There m lines in the input, while each one consists of two strings separated by space. Each string only contains uppercase letter 'A'~'Z'.
+
+### Output
+For each line in input, output YES in case one string can be transformed into the other by cycle shifting, otherwise output NO.
+
+### Example
+![Image text](https://raw.githubusercontent.com/chaopan1995/DataStructure/master/_images/Broadcast_example.png)
+
+### Restrictions
+0 <= m <= 5000
+
+1 <= |S1|, |S2| <= 10^5
+
+Time: 2 sec
+
+Memory: 256 MB
+
+You can only use the C++ language. STL is forbidden.
+
+### Solution
+According to its definition strcopy s1's prefix to s1's suffix.
+
