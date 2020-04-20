@@ -280,7 +280,7 @@ There m lines in the input, while each one consists of two strings separated by 
 For each line in input, output YES in case one string can be transformed into the other by cycle shifting, otherwise output NO.
 
 ### Example
-![Image text](https://raw.githubusercontent.com/chaopan1995/DataStructure/master/_images/Broadcast_example.png)
+![Image text](https://raw.githubusercontent.com/chaopan1995/DataStructure/master/_images/Cycle_example.png)
 
 ### Restrictions
 0 <= m <= 5000
